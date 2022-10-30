@@ -68,7 +68,6 @@ Button(
     ).place(x=200, y=500)
 
 
-#
 Menu = PhotoImage(file="C:\\Users\\WSA\\PycharmProjects\\MP3_Player\\images\\menu.png")
 Label(root, image=Menu).pack(padx=10, pady=50, side=RIGHT)
 Frame_Music = Frame(root, bd=2, relief=RIDGE)
@@ -99,7 +98,3 @@ Scroll.config(command=Playlist.yview)
 Scroll.pack(side=RIGHT, fill=Y)
 Playlist.pack(side=LEFT, fill=BOTH)
 root.mainloop()
-
-
-if "__name__" == "__main__":
-    main()
